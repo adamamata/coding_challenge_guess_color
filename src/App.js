@@ -19,6 +19,7 @@ function App() {
   const [isIncorrect, setIsIncorrect] = useState(false);
   const [score, setScore] = useState(0);
 
+  //Function to set new color and options
   const newColor = () => {
     const correctOption = getRandomColor();
     setColor(correctOption);
